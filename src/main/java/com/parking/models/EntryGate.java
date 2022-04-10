@@ -1,0 +1,12 @@
+package com.parking.models;
+
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@Builder(toBuilder= true)
+public class EntryGate extends Gate {
+	private DisplayBoard displayBoard;
+}
